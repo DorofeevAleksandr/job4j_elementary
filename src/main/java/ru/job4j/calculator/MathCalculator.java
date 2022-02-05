@@ -8,20 +8,20 @@ public class MathCalculator {
         return sum(first, second) + multiply(first, second);
     }
 
-    public static double sumRaznAndDiv(double first, double second) {
-        return razn(first, second) + div(first, second);
+    public static double substractAndDiv(double first, double second) {
+        return substract(first, second) + div(first, second);
     }
 
     public static double sumFull(double first, double second) {
         return sum(first, second)
                 + multiply(first, second)
-                + razn(first, second)
+                + substract(first, second)
                 + div(first, second);
     }
 
     public static void main(String[] args) {
         System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
-        System.out.println("Результат расчета равен: " + sumRaznAndDiv(10, 20));
+        System.out.println("Результат расчета равен: " + substractAndDiv(10, 20));
         System.out.println("Результат расчета равен: " + sumFull(10, 20));
 
     }
