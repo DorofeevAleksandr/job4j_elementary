@@ -16,9 +16,11 @@ public class DummyBot {
         System.out.println(rsl);
         rsl = DummyBot.answer("Пока.");
         System.out.println(rsl);
+        rsl = DummyBot.answer("Сколько будет 2 + 2?");
+        System.out.println(rsl);
         rsl = DummyBot.answer("Как поживаешь?");
         System.out.println(rsl);
-        rsl = DummyBot.answer("Как тебя зовут??");
+        rsl = DummyBot.answer("Как тебя зовут?");
         System.out.println(rsl);
     }
 }
