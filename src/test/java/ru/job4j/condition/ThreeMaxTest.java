@@ -2,7 +2,7 @@ package ru.job4j.condition;
 
 import org.junit.Assert;
 import org.junit.Test;
-
+/*4.5. Отладка программы в IDEA [#159464]*/
 public class ThreeMaxTest {
     @Test
     public void firstMax() {
