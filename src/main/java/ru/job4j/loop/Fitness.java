@@ -7,9 +7,6 @@ public class Fitness {
              ivan *= 3;
              nik *= 2;
              month++;
-             if (ivan >= nik) {
-                 return month;
-             }
          }
          return month;
      }
